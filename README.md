@@ -1,22 +1,9 @@
-# Maquetando Con HTML — CALJIM
+# Práctica JavaScript 
 
-Documentación técnica y especificación de requerimientos del sistema *CALJIM*.
+Retos resueltos en `js/app.js`:
 
-## Autor de la Maquetación Individual:
-- *Fabian Cañar*
+- **Reto 1:** el saludo ahora muestra la fecha actual con `toLocaleDateString("es-EC", { dateStyle: "full" })`.
+- **Reto 4:** el nombre del participante debe tener al menos 5 caracteres (también `minlength="5"` en `index.html`).
+- **Reto 5:** sale un aviso (`alert` con `setTimeout`) cuando se registran 3 participantes.
 
-## Integrantes del Grupo:
-- Jonathan Guayllas 
-- Fabian Cañar
-- Alfonso Ocampo  
-
-## Estructura del Proyecto:
-- *jonathan.html*: Maquetación individual
-- *index.html*: Versión base del equipo.
-- *img/*: Logotipo y recursos visuales.
-
-## Stack Tecnológico Propuesto:
-- *Frontend*: HTML5 Semántico + CSS3 (Variables) + JavaScript ES6+ (Fetch API) + Leaflet.js (Mapas/GPS) + Chart.js (Dashboard analítico).
-- *Backend*: PHP 8.x con PDO bajo arquitectura MVC (Modelos, Vistas, Controladores) y seguridad RBAC.
-- *Base de Datos*: MySQL / MariaDB (Motor InnoDB con soporte ACID) administrado con phpMyAdmin en XAMPP.
-- *Reportes & Facturación*: DomPDF para comprobantes fiscales y guías de despacho digitales en PDF.
+Para probarlo, abre `index.html` en el navegador.
